@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/portfolio-website/static/js/main.dbbee0cb.js",
+    "static/js/787.43d6189f.chunk.js": "/portfolio-website/static/js/787.43d6189f.chunk.js",
+    "static/media/guy-on-computer-thinking.png": "/portfolio-website/static/media/guy-on-computer-thinking.2d9ce6c55976ed6a9c6f.png",
+    "static/media/y-high-resolution-logo-white-on-black-background.png": "/portfolio-website/static/media/y-high-resolution-logo-white-on-black-background.c7d8b10bfd3f745193a9.png",
+    "static/media/guy-on-computer-small.png": "/portfolio-website/static/media/guy-on-computer-small.22074975f3c1f1e9d40d.png",
+    "static/media/logo.svg": "/portfolio-website/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
+    "index.html": "/portfolio-website/index.html",
+    "main.dbbee0cb.js.map": "/portfolio-website/static/js/main.dbbee0cb.js.map",
+    "787.43d6189f.chunk.js.map": "/portfolio-website/static/js/787.43d6189f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.dbbee0cb.js"
+  ]
+}
