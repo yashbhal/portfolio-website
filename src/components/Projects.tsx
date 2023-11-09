@@ -5,24 +5,28 @@ import projectImage from "../assets/logo.svg";
 const Projects = () => {
   const projects = [
     {
-      name: "Personal Website",
+      name: "Interdisciplinary Project Marketplace - NASA Psyche",
       image: projectImage,
       description:
-        "A personal website that acts as a landing spot to learn about me and what I do. This was built as an experimental learning project using Typescript, ChakraUI, and ChatGPT. ",
+        `Collaborated in a team of 5 with the NASA Psyche Program, ASU Founder’s Lab and the Entrepreneurship and Innovation Institute at ASU 
+        to build a website to host interdisciplinary projects from clients that students and faculty can apply to be a part of. `,
+      link: "https://sites.google.com/asu.edu/fa21capstone/computer-science-teams",
+    },
+    {
+      name: "Augmented Reality Menu App",
+      image: projectImage,
+      description:
+        `Developed a cross-platform AR Restaurant Menu App using Unity, Vuforia, and C# that displays restaurant menu items in a more visual and exciting manner. 
+        the high-quality 3D food models were created using Photogrammetry and Blender.`,   
       link: "https://github.com/yashbhal",
     },
     {
-      name: "Airplane Landing System",
+      name: "Gesture Based YouTube Player",
       image: projectImage,
       description:
-        "A C++ program to improve landing systems at one-runway airports. This was built to learn more about C++, and understand the implementation of data structures and algorithms.",
-      link: "https://github.com/yashbhal",
-    },
-    {
-      name: "Movie Recommender",
-      image: projectImage,
-      description:
-        "A Python project made during lockdown that suggests a random movie to watch by scraping through IMDb's Top 250 Movies List. This was built to learn Python, and understand web-scraping.",
+        `Built a gesture-driven interface for YouTube playback on PC using ML on a Raspberry Pi Pico. 
+         The data required was acquired by establishing communication with a MPU-6050 accelerometer over I2C protocol. 
+         Finally, the touchless interface was implemented using Python via PyAutoGUI. `,
       link: "https://github.com/yashbhal",
     },
   ];
@@ -38,12 +42,12 @@ const Projects = () => {
       <Box textAlign="center" mb={8}>
           <Heading fontSize="50px">Projects</Heading>
       </Box>
-      <Flex justify="center" alignItems="center" flexWrap="wrap">
+      <Flex justify="center" alignItems="stretch" flexWrap="wrap">
 
         {projects.map((project, index) => (
           <Box
             key={index}
-            maxW="lg"
+            maxW="md"
             borderWidth="0"
             borderRadius="md"
             overflow="hidden"
@@ -51,7 +55,7 @@ const Projects = () => {
             m={4}
             transition="all 0.2s ease-in-out"
             _hover={{ transform: "scale(1.05)" }}
-            flex="1 1 300px"
+            flex="0 0 calc(33.33% - 2rem)"
           >
             <Image
               src={project.image}

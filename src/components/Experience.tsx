@@ -19,7 +19,6 @@ const Experience = () => {
             <Heading as="h2" size="xl" mb={2}>Software Developer</Heading>
             <Text fontSize="lg" color="gray.500" mb={4}>Microchip Technology</Text>
             <Text fontSize="lg" textAlign="justify">
-            • Building and maintaining Microchip's 16-bit Bootloader that allows customer to build their own custom bootloader. <br />
             • Developing and maintaining libraries for Microchip's MPLAB X IDE and MPLAB Code Configurator. <br />
             </Text>
           </Box>

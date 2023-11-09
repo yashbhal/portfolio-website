@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
-import aboutImage from '../assets/guy-on-computer-small.png';
+import aboutImage from "../assets/guy-on-computer-small.png";
 
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
               I graduated from Arizona State University with an undergraduate degree in Computer Science and currently work as a Software Developer at Microchip Technology. <br />
               I'm passionate about technology and am interested in the fields of mixed reality (AR, VR, and XR), machine learning, and embedded software development. <br />
               I love solving problems, learning new skills, and enjoy working in interdisciplinary teams to build great products.<br /> 
-              In free time, you can find me playing soccer, video games, or experimenting with code.         
+              When I have free time, you can catch me on the soccer field, immersed in video games, or tinkering with code.       
               </Text>
             </Box>
           </Flex>
