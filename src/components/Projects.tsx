@@ -10,7 +10,7 @@ const Projects = () => {
       description:
         `Collaborated in a team of 5 with the NASA Psyche Program, ASU Founder’s Lab and the Entrepreneurship and Innovation Institute at ASU 
         to build a website to host interdisciplinary projects from clients that students and faculty can apply to be a part of. `,
-      link: "https://sites.google.com/asu.edu/fa21capstone/computer-science-teams",
+      link: "https://www.youtube.com/watch?v=WFbEml6nfHs",
     },
     {
       name: "Augmented Reality Menu App",

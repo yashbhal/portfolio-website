@@ -13,6 +13,9 @@ const Home = () => {
         <Text fontSize="xl">
           Software Engineer | Tech Enthusiast
         </Text>
+        <Text fontSize="sm">
+          This website is currently under construction.
+        </Text>
       </Box>
     </Center>
   );
